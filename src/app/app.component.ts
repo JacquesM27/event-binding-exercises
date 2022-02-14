@@ -10,6 +10,7 @@ export class AppComponent {
   blackDiv = 'black';
   yellowDiv = 'yellow';
   colorSwitch = 'green';
+  colorButtons = 'black';
   text = 'Type something';
   htmlText = '<h2>Angular is great</h2><blockquote>But you have to learn a lot</blockquote>';
   isDisabled = true;

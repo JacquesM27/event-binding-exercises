@@ -51,4 +51,30 @@
   >
     Switch color!
   </button>
+
+  <h1>Excercise 7 - buttons to swich div color</h1>
+  <div
+    style="height: 100px; width: 800px;"
+    [style.background]="colorButtons"
+  >
+  </div>
+  <button 
+    class="btn"  
+    (click)="colorButtons = 'yellow'"
+  >
+    Switch to yellow!
+  </button>
+  <button 
+    class="btn"  
+    (click)="colorButtons = 'red'"
+  >
+    Switch to red!
+  </button>
+  <button 
+    class="btn"  
+    (click)="colorButtons = 'green'"
+  >
+    Switch to green!
+  </button>
+
 </div>  
