@@ -23,4 +23,19 @@
   <div [innerHTML]="htmlText"></div>
   <!-- </textarea> -->
 
+  <h1>Excercise 5 - mutually deactivating buttons</h1>
+  <button
+    class="btn"
+    [disabled]="isDisabled"
+    (click)="isDisabled = !isDisabled"
+  >
+    First
+  </button>
+  <button
+    class="btn"
+    [disabled]="!isDisabled"
+    (click)="isDisabled = !isDisabled"
+  >
+    Second
+  </button> 
 </div>  
