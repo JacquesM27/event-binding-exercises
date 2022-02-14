@@ -38,4 +38,17 @@
   >
     Second
   </button> 
+
+  <h1>Excercise 6 - div color switching using one button</h1>
+  <div
+    style="height: 100px; width: 800px;"
+    [style.background]="colorSwitch"
+  >
+  </div>
+  <button 
+    class="btn"  
+    (click)="colorSwitch = colorSwitch === 'green' ? 'red' : 'yellow'"
+  >
+    Switch color!
+  </button>
 </div>  
