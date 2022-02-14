@@ -16,4 +16,11 @@
   <h1>Excercise 3 - disappearing caption on focus</h1>
   <input [value]="text" (focusin)="text = ''" />
 
+  <h1>Excercise 4 - using string saved in property as html code</h1>
+  <!-- <textarea disabled rows="4"> -->
+  <!-- <h2>Angular is great</h2><blockquote>But you have to learn a lot</blockquote> -->
+  <!-- <h3>Example</h3> -->
+  <div [innerHTML]="htmlText"></div>
+  <!-- </textarea> -->
+
 </div>  
