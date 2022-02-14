@@ -13,4 +13,7 @@
   <div style="height: 100px; width: 800px;" [style.background]="yellowDiv"></div>
   <button class="btn" (click)="yellowDiv = 'red'" >Change color!</button>
 
+  <h1>Excercise 3 - disappearing caption on focus</h1>
+  <input [value]="text" (focusin)="text = ''" />
+
 </div>  
