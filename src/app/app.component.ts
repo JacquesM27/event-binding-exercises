@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'event-binding-exercises';
+  blackDiv = 'black';
+  yellowDiv = 'yellow';
+  colorSwitch = 'green';
+  text = 'Type something';
+  htmlText = '<h2>Angular is great</h2><blockquote>But you have to learn a lot</blockquote>';
+  isDisabled = true;
 }
